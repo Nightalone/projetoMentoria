@@ -31,12 +31,31 @@
     </nav>
 
     <main class="container mt-5">
-        <div class="row justify-content-around">
-            <section class="col-sm-7 col-md-6">
-                
-            </section>
-     
-        </div>
+        <section class="row justify-content-center">
+            <div class="col-sm-7 col-md-6">
+                <form action="action_page.php" method="post" class="formulario p-3">
+                    <h1>Formulário para contato</h1>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" name="nome"/><br><br>
+                    <label for="sobrenome">Sobrenome:</label><br>
+                    <input type="text" name="sobrenome"/><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email"/><br><br>
+                    <label for="estado">Estado:</label><br>
+                    <select name="estados" id="estados">
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Minas Gerais">Minas Gerais</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Pernambuco">Pernambuco</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Santa Catarina">Santa Catarina</option>
+                        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    </select><br><br>
+                    <input type="button" value="submit"/>
+                </form>
+            </div>
+        </section>
     </main>
     
     <script src="./dinamico.js"></script>
