@@ -1,8 +1,13 @@
+#corpo{
+    background-image: url("./imagens/corpo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .criarSites{
     width: 540px;
     height: 300px;
     border-radius: 5px;
-    
 }
 
 .formulario{
